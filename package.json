@@ -1,0 +1,19 @@
+{
+  "name": "aweris.me",
+  "version": "1.2.0",
+  "license": "UNLICENSED",
+  "author": "aweris",
+  "scripts": {
+    "dev": "hugo server",
+    "build": "hugo --gc --minify --templateMetrics --templateMetricsHints --buildDrafts --buildExpired --buildFuture --forceSyncStatic",
+    "test": "hugo server --disableFastRender --navigateToChanged --templateMetrics --templateMetricsHints --buildDrafts --buildExpired --buildFuture --watch --forceSyncStatic -e production --minify",
+    "format": "prettier -w ."
+  },
+  "devDependencies": {
+    "@fullhuman/postcss-purgecss": "^5.0.0",
+    "postcss": "^8.4.20",
+    "postcss-cli": "^10.1.0",
+    "prettier": "^2.8.1",
+    "prettier-plugin-go-template": "0.0.13"
+  }
+}
