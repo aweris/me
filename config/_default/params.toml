@@ -2,20 +2,20 @@
 # favicon
 favicon = "images/favicon.png"
 # logo
-logo = "images/logo.svg"
+logo = ""
 # use `px` or `x` with logo_width, example: "100px".
 # Note: logo_width is not work with .svg file
 logo_width = ""
 # if logo_webp set false, will not generate WEBP version of logo | default is true
 logo_webp = true
 # logo text will only show when logo is missing.
-logo_text = "northendlab"
+logo_text = "Ali AKCA"
 
 # purgeCSS
 purge_css = true
 
 # search
-header_search_layout = "expanded" # "expanded" or "popupable"
+header_search_layout = "popupable" # "expanded" or "popupable"
 search = true
 
 # Menu align *** "left", "right" or "center" (if Search is disable Menu will align in Right) ***
@@ -38,13 +38,17 @@ google_tag_manager = "" # example: G-XXXXXXXXXX
 custom_script = ""
 
 # copyright
-copyright = "Copyright by your company"
-theme_copyright = true
+copyright = "Copyright by Ali AKCA"
+theme_copyright = false
+
+# Footer
+[footer]
+logo = "images/favicon.png"
 
 # Banner
 [banner]
 bg_image = "images/banner/banner-shape.png"
-title = "Hi, I'm Cameron William <br> My Blogsite is About <br> <strong>Website & Development</strong>"
+title = "Stirring up a blend of tech innovation and coffee-induced chaos"
 image = "images/banner-image.png"
 
 # Preloader
@@ -54,13 +58,13 @@ preloader = "" # use jpg, png, svg or gif format.
 
 # contact info
 [contact_info]
-address = "9567 Turner Trace Apt. BC C3G8A4"
-email = "info@email.com"
-mobile = "+211234565523"
+address = ""
+email = "ali@akca.io"
+mobile = ""
 
 # Crisp Chat
 [crisp_chat]
-crisp_website_id = "9aa449e1-9999-422a-938f-8567982eec6d" # replace this code with yours
+crisp_website_id = "" # replace this code with yours
 enable = false 
 # Check this video tutorial to get your crisp website ID - https://www.youtube.com/watch?v=nW5UX6iVdFc
 
@@ -81,10 +85,10 @@ visitor = true
 
 # seo meta data for OpenGraph / Twitter Card
 [metadata]
-author = "Themefisher" 
-description = "This is meta description" 
+author = "aweris"
+description = "Personal blog about tech, coffee and chaos"
 image = "images/favicon.png" # this image will be used as fallback if a page has no image of its own
-keywords = ["Boilerplate", "Hugo", "Themefisher", "GetHugoThemes"] 
+keywords = ["Development", "Coding", "Programming", "Tech", "Coffee", "Chaos", "Kubernetes", "Cloud Infrastructre"]
 
 # matomo tracking: see https://matomo.org/
 [matomo]
@@ -130,7 +134,7 @@ image = "images/hugo-muscot.svg"
 title = "Get the best hugo templates"
 
 [cta.button]
-enable = true
+enable = false
 label = "Visit Here"
 link = "https://gethugothemes.com/shop/"
 
@@ -149,21 +153,16 @@ sidebar = [
 
 ############################# social site ########################
 [[social]]
-icon = "fab fa-facebook" # fontawesome icon pack : https://fontawesome.com/icons/
-link = "https://www.facebook.com" 
-title = "facebook" 
-
-[[social]]
 icon = "fab fa-twitter" # fontawesome icon pack : https://fontawesome.com/icons/
-link = "https://twitter.com" 
-title = "twitter" 
+link = "https://twitter.com/sameoldaweris"
+title = "twitter"
 
 [[social]]
 icon = "fab fa-github" # fontawesome icon pack : https://fontawesome.com/icons/
-link = "https://github.com" 
-title = "github" 
+link = "https://github.com/aweris"
+title = "github"
 
 [[social]]
 icon = "fab fa-linkedin" # fontawesome icon pack : https://fontawesome.com/icons/
-link = "https://www.linkedin.com" 
-title = "linkedin" 
+link = "https://www.linkedin.com/in/ali-akca/"
+title = "linkedin"

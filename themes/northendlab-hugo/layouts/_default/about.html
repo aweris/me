@@ -4,7 +4,7 @@
   {{ with site.Params.background_shape}}
   {{ partial "image.html" (dict "Src" . "Alt" "background shape" "Class" `background_shape`) }}
   {{ end }}
-  
+
   <div class="container">
     <div class="row justify-content-center align-items-center text-center text-lg-start">
       {{ with .Params.image }}
@@ -91,7 +91,9 @@
       <div class="col-lg-10 text-center">
       {{ range .item }}
       <div class="m-4 d-inline-block">
-        {{ partial "image.html" (dict "Src" .image "Alt" "compatibility-image") }}
+        <div style="width: 55px; height: 55px;">
+          {{ partial "image.html" (dict "Src" .image "Alt" "compatibility-image") }}
+        </div>
       </div>
       {{ end }}
       </div>
