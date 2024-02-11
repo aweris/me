@@ -103,8 +103,8 @@ enable = false
 
 # plausible analytics: see https://plausible.io/
 [plausible]
-domain = "" # yourdomain.com
-enable = false 
+domain = "aweris.me" # yourdomain.com
+enable = true
 
 # counter analytics: see https://counter.dev/setup.html
 [counter]
