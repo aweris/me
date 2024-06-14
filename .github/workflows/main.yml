@@ -20,7 +20,7 @@ concurrency:
 env:
   HUGO_ENV: production
   HUGO_VERSION: "0.121.0"
-  GO_VERSION: "1.21.0"
+  GO_VERSION: "1.22.3"
   NODE_VERSION: "18.15.0"
 
 defaults:
